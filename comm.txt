@@ -1,0 +1,3 @@
+SELECT a.name,sum(b.order_items_qty) FROM product as a,sales_person_items as b where a.idproduct=b.product_idproduct  Group By a.name '
+
+SELECT a.name FROM product as a,sales_person_items as b '
